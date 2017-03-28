@@ -29,10 +29,12 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'suan/vim-instant-markdown'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
@@ -85,3 +87,6 @@ let g:airline_right_sep = '◀'
 set laststatus=2
 set ttimeoutlen=50
   
+" Markdown 
+let g:vim_markdown_folding_disabled = 1
+let vim_markdown_preview_browser='Google Chrome'
