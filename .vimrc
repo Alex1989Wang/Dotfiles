@@ -5,6 +5,10 @@ syntax on
 set number
 set colorcolumn=80
 set hlsearch
+set shiftwidth=4
+
+" Key mappings
+let mapleader = ","
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -54,6 +58,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+set autoindent
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
